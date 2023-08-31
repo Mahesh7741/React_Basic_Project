@@ -1,0 +1,17 @@
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -350px;
+    left:330px
+}
+.button{
+    width: 180px;
+    height: 30px;
+}
+.button:hover{
+    background-color: rgb(47, 154, 255);
+}

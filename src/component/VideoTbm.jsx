@@ -6,7 +6,7 @@ function VideoTbm({course,channel,views,time,id})
         <>
         <div className="box-main">
             <div className="img">
-                <img src={`https://picsum.photos/id/${id}/200/100`} alt="#" />
+                <img src={`https://picsum.photos/id/${id}/250/150`} alt="#" />
             </div>
             <div className="course">{course}</div>
             <div className="channel">{channel}</div>

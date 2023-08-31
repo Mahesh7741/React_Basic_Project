@@ -1,4 +1,7 @@
-
+.box-main{
+    width: 250px;
+    height: 250px;
+}
 .course{
     font-weight:700;
     padding-bottom:4px;
