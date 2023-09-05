@@ -3,7 +3,8 @@ import "./CounterB.css";
 
 function CounterB() {
   const [number, setNumber] = useState(0);
-  function handelClick() {
+  function handelClick(e) {
+    e.stopPropagation();
     // setTimeout(()=>{setNumber(number + 1);},2000)
     setNumber(number+1);
   }

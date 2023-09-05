@@ -1,0 +1,16 @@
+input{
+    display: block;
+    padding: 10px;
+    margin-bottom: 4px;
+}
+button{
+    position: relative;
+    left: 63px;
+}
+button:hover{
+    background-color: blueviolet;
+}
+.box1{
+    position:relative;
+    right:  -350px;
+}
